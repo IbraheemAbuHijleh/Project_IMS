@@ -1,0 +1,210 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #BBE1FA; /* خلفية هادئة وناعمة */
+  font-family: 'Nunito', sans-serif !important;
+  color: #333; /* جعل النصوص أكثر وضوحًا */
+  line-height: 1.6;
+}
+
+.input-field {
+  width: 100%;
+  outline: none;
+  padding: .8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: .8rem;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #4CAF50; /* تغيير اللون عند التركيز */
+}
+
+.input-field-error {
+  border: 1px solid #E74C3C;
+}
+
+li.ant-menu-item {
+  padding: 0 .8rem !important;
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333; /* جعل النصوص داكنة لتحسين الوضوح */
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #E4E4E4;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF6565;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4C4C;
+}
+
+.custom-table {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.custom-table th {
+  background-color: #4CAF50; /* لون أخضر هادئ */
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 6px 6px 0 0;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.query-filter {
+  width: 75%;
+  margin-bottom: 1rem;
+}
+
+.query-filter label {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.sales {
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 1.2rem;
+  width: 100%;
+  overflow: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.number-card {
+  width: 100%;
+  margin: .5rem;
+  min-height: 150px;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.number-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: .5rem;
+}
+
+.number-card h1 {
+  font-size: 2.8rem;
+  color: #4CAF50;
+  font-weight: 700;
+}
+
+.update-sale-modal {
+  border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bulk-delete-btn {
+  padding: 0 .5rem;
+  height: 35px;
+  background-color: #FF4C4C !important;
+  opacity: .8;
+  transition: all 300ms ease-in-out;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+}
+
+.bulk-delete-btn:hover {
+  opacity: 1;
+  background-color: #FF6565 !important;
+}
+
+.bulk-delete-btn:disabled {
+  background-color: #ccc !important;
+  color: #e0e0e0;
+}
+
+.table-btn-small {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  padding: 0;
+  background-color: #FF6565;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.table-btn-small:hover {
+  background-color: #FF4C4C;
+}
+
+.table-btn {
+  border-radius: 6px;
+  height: 35px;
+  padding: 0 .8rem;
+  margin-right: .2rem;
+  font-weight: 600;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.table-btn:hover {
+  background-color: #45A049;
+}
+
